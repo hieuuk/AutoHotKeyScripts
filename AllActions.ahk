@@ -34,8 +34,6 @@ return
 !+right::send +{End}
 
 !bs::send {del}
-
-^q::Send !{F4}
 return
 
 ;#IfWinActive ahk_exe vlc.exe
