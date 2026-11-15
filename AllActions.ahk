@@ -1,9 +1,13 @@
 ;AutoHotKey 60% actions Version 1
 ;SetCapsLockState, AlwaysOff
 
+; CapsLock/Control/RightAlt remap
+; CapsLock::Control
+
 !4::Send, % Chr(163)
 return
 
+/*
 !`::send {enter}
 !a::send {left}
 !s::send {down}
@@ -46,3 +50,5 @@ return
 ;NumpadDot::send, x
 
 ;#IfWinActive
+
+*/
